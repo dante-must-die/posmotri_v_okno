@@ -71,7 +71,7 @@ ol {
   position: relative;
 }
 .result__video {
-  width: 100%;
+  width: 711px;
   height: 100%;
   object-fit: cover;
 }
@@ -81,6 +81,12 @@ ol {
   flex-direction: row;
   align-items: end;
   gap: 40px;
+}
+.search-form__fieldset {
+  border: none;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 5px;
 }
 .search-form__fieldset-title {
   color: #fff;
@@ -114,9 +120,6 @@ ol {
   overflow-y: scroll;
   position: relative;
 }
-/* .content__list-item{
-
-} */
 .content__list-item:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -155,9 +158,6 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
-}
-.search-form__fieldset {
-  border: none;
 }
 .search-form__label {
   display: inline-flex;
