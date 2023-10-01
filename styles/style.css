@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -54,7 +57,6 @@ ol {
   gap: 30px;
   width: 1140px;
   height: 534px;
-  margin: 133px 33px;
 }
 .result {
   width: 711px;
@@ -74,8 +76,10 @@ ol {
   object-fit: cover;
 }
 .search-form {
-  display: inline-flex;
-  align-items: flex-start;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
   gap: 40px;
 }
 .search-form__fieldset-title {
