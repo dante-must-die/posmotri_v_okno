@@ -245,8 +245,6 @@ input::placeholder {
   gap: 10px;
 }
 
-
-
 .search-form__textfield:focus {
   outline: none;
 }
