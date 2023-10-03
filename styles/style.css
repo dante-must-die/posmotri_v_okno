@@ -288,10 +288,14 @@ input::placeholder {
   align-items: center;
   cursor: pointer;
   gap: 10px;
-  flex-shrink: 0;
   border: 1px solid #fff;
   background-color: transparent;
-  color: #fff;
+  color: #FFF;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .button:active {
@@ -303,19 +307,17 @@ input::placeholder {
   text-decoration: underline;
 }
 
+.button:focus{
+  outline: none;
+}
+
 .button:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: 2px;
 }
 
 .search-form__submit-button {
   width: 194px;
-  color: #FFF;
-  text-align: center;
-  font-family: Fira Sans Condensed;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 
 .more-button {
